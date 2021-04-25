@@ -1,23 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body {
-    font size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font size: 12px;
+    background-color: #f8edeb;
 }
 
-header,
-main,
-footer {
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;  
+}
+
+main {
     max-width: 760px;
     margin: 0 auto;
 }
     
-header, footer {
+header {
+    max-width: 760px;
+    margin: 0 auto;
     border: 1px double;
     border-color: #070008;
     padding: 1rem;
     background-color: #F3D9DC;
-    font-family: "Galada", cursive;
+    font-family: "Aclonica", cursive;
+    font-size: 25px;
+}
+
+footer {
+    max-width: 760px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    border: 1px double;
+    border-color: #070008;
+    padding: 1rem;
+    background-color: #F3D9DC;
+    
 }
 
 header img {
