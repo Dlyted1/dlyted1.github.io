@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body {
     font size: 16px;
 }
@@ -8,13 +11,18 @@ footer {
     max-width: 760px;
     margin: 0 auto;
 }
+    
 header, footer {
     border: 1px double;
-    border-color: #D3D3D3;
+    border-color: #070008;
     padding: 1rem;
-    background color: 
+    background-color: #F3D9DC;
+    font-family: "Galada", cursive;
 }
 
 header img {
     float: right;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #999;
 }
+
