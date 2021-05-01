@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    width: 1100px; /* match the width you set on main */ 
+    margin: 0 auto;
+    padding: 50px; /* center content */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+h1 {
+    font-family: 'Aref Ruqaa', serif; 
+  }
+  
+  h2, 
+  h3 { 
+    font-family: 'Montserrat', sans-serif; 
+  }
+
+ 
