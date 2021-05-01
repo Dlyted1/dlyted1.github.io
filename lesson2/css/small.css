@@ -1,19 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-body {
-    width: 1100px; /* match the width you set on main */ 
-    margin: 0 auto;
-    padding: 50px; /* center content */
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    
 h1 {
-    font-family: 'Aref Ruqaa', serif; 
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 60px; 
   }
   
-  h2, 
-  h3 { 
-    font-family: 'Montserrat', sans-serif; 
+  
+
+body {
+    width: 120em;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4e5f6e;
+    
+ } 
+
+
+ header {
+    margin-left: 5%;
+    margin-right: 7%;
+    font-size: 20px;
+    text-align: center;
+    background-color:#DEB887;
+    margin-bottom: 20px;
   }
 
- 
+  main {
+    max-width: 120em;
+    margin: 0 auto;
+    
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    margin-left: 5%; 
+    margin-right: 5%;     
+}
+.topic-1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 4%;
+  border-top: 3px double;
+  border-bottom: 3px double; 
+  border-left: 3px double;
+  border-right: 3px double;
+  border-color: #D3D3D3;
+} 
+.topic-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 4%;
+    border-top: 3px double;
+    border-bottom: 3px double; 
+    border-left: 3px double;
+    border-right: 3px double;
+    border-color: #D3D3D3;
+  } 
+  .topic-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 4%;
+    border-top: 3px double;
+    border-bottom: 3px double; 
+    border-left: 3px double;
+    border-right: 3px double;
+    border-color: #D3D3D3;
+  } 
+
+  footer {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 7%;
+    background-color:#DEB887;
+    padding-top: 25px;
+    padding-bottom: 25px;
+       
+  }
+
