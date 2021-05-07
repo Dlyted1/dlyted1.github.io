@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
 	font-size: 16px;
-	font-family: Tahoma, Verdana, sans-serif;
+	font-family: courier, Verdana, sans-serif;
     padding-left: 20px;
 }
 
@@ -23,14 +23,21 @@ footer {
 	margin: 0 auto;
 }
 h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 2rem;
     Color: rgb(214, 207, 197);
 }
 h2 {
 	color: #536878;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h3 {
-    color: rgb(214, 207, 197);
+h3,
+h4 {
+    color: #536878;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h5 {
+	color: rgb(214, 207, 197);
 }
 nav ul { display: flex; }
 		nav ul li  { flex: 1 1 100%; }
