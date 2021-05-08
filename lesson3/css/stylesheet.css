@@ -1,3 +1,12 @@
+:root {
+	/* change the values below to your colors from your palette */
+	--primary-color: #042a2b;
+	--secondary-color: #5eb1bf;
+	--accent1-color: 	#54f2f2;
+	--accent2-color: 	#fcfcfc;
+	--accent3-color: 	#f4e04d;
+}
+
 body {
     margin: 0 auto;
 	font-size: 16px;
@@ -22,14 +31,7 @@ footer {
 	max-width: 1200px;
 	margin: 0 auto;
 }
-:root {
-	/* change the values below to your colors from your palette */
-	--primary-color: #042a2b;
-	--secondary-color: #5eb1bf;
-	--accent1-color: 	#54f2f2;
-	--accent2-color: 	#fcfcfc;
-	--accent3-color: 	#f4e04d;
-}
+
 	
 h1 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -121,7 +123,8 @@ colors {
 
 footer {
 	flex: 0 1 100%;
-	height: 4rem;
+	height: 6rem;
     color: #D9DBF1;
+	margin-top: 40px;
 
 }
