@@ -1,5 +1,36 @@
-@media only screen and (min-width: 32em) {
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
     header img {
         width: 100%;
     }
-}
+
+    nav {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a85f6f+2,8f0222+44,aa0000+100 */
+   background: #a85f6f; /* Old browsers */
+   background: -moz-linear-gradient(left,  #a85f6f 2%, #8f0222 44%, #aa0000 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(left,  #a85f6f 2%,#8f0222 44%,#aa0000 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to right,  #a85f6f 2%,#8f0222 44%,#aa0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a85f6f', endColorstr='#aa0000',GradientType=1 ); /* IE6-9 */
+   
+    }
+   
+   nav button {display: none;}
+   
+   nav ul.hide {display: block;}
+   
+   nav ul {
+       margin-left: 2%;
+   }
+   
+   nav ul li {
+       float:left;
+   }
+   
+   nav ul li a {
+       border: none;
+       border-right: 1px solid rgba(01, 01, 01, .03);
+       padding: .6rem 1rem;
+   }
+
+} /*end large */
