@@ -13,18 +13,28 @@
   </head>
   <body>
       <header>
-        <picture>
-            <source media="(min-width:650px)" srcset="images4/horselogo.png">
-            <source media="(min-width:465px)" srcset="images4/horselogo.png">       
+        <picture>    
             <img src= "images4/horselogo.png" height="100" alt= "Sky Equestrian logo" style="width:auto;">
         </picture>
         <section class="headings">
          <h1>Sky Equestrian</h1>
-         <div class="m">moto here    </div>
+         <div class="m">Saddle up... We've got your back!    </div>
         </section>
       </header>
 
-      <nav></nav>
+      <nav class="clearfix">
+
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>     
+        </ul>
+    </nav>
+    
 
       <main>
           <h2>Preston Idaho</h2>
@@ -39,7 +49,8 @@
           | Sky Equestrian | Kathleen Moore |  
      </footer>
 
-      <script></script>
+     <script src="js/scripts.js"></script>
+     
   </body>
 
   </html>
