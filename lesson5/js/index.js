@@ -13,7 +13,7 @@ const button = document.querySelector('button');
         listItem.appendChild(listText);
         listText.textContent = myItem;
         listItem.appendChild(listBtn);
-        listBtn.textContent = '&#10006';
+        listBtn.textContent = "❌";
         list.appendChild(listItem);
 
         listBtn.onclick = function(e) {
