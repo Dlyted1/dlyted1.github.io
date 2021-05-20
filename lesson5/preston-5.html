@@ -12,6 +12,7 @@
 
   </head>
   <body>
+      <aside id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion</aside>
       <header>
         <picture>    
             <img src= "images5/horselogo.png" height="100" alt= "Sky Equestrian logo" style="width:auto;">
@@ -41,11 +42,21 @@
           
           <div class="herodiv">
             <img class="hero-ph" src= "images5/pexels-ricardo-duarte.jpg" alt= "Two men horseback riding">
+
+            <!--setting up grid here with placeholders for weather box --> 
               <section  class="weathersummary">
                   <h3>Weather Summary</h3>
-                  <p>Label: Value</p>
-                  <p>Label: Value</p>
-                  <p>Label: Value</p>
+                  <div class="weatherdetails"></div>
+                  <p class="label">Currently:</p>
+                  <p class="value">Sunny</p>
+                  <p class="label">High:</p>
+                  <p class="value">76 &deg;F</p>
+                  <p class="label">Wind Chill:</p>
+                  <p class="value">&deg;F</p>
+                  <p class="label">Humidity:</p>
+                  <p class="value">69%</p>
+                  <p class="label">Wind Speed:</p>
+                  <p class="value">5 mph</p>
               </section>
         </div>
           <div class="contentbox forcast">5 Day Forecast</div>
@@ -59,7 +70,9 @@
           <date></date> 
      </footer>
 
+
      <script src="js/scripts.js"></script>
+     <script> defer src="js/banner.js"</script>
      
   </body>
 
