@@ -52,44 +52,7 @@
        max-width:820px;margin:0 auto;
     }
 
-   /*the  parent container*/
-   .herodiv {
-    margin: 10px auto;
-    position: relative;
-    width: 735px;
-    height: 300px;
-    font-weight: 500;
-    h1, h2, p {margin: 0;}
-    
-}
-   /*the photo*/
-   .hero-ph {
-       margin: 10px auto;
-       width: 735px;
-       height: 300px;
-   } 
    
-    /*the  parent container*/
-    .herodiv {
-        margin: 10px auto;
-        position: relative;
-        font-weight: 500;
-        
-    }
-     /*the child of .herodiv*/
-     .weathersummary {
-        position: absolute;
-        margin-left: 5%;
-        top: 40px;
-        left: 50 px;
-        background: radial-gradient(#eee, #4567aa);
-        border: 3px solid #3c362a;
-        padding: 1.5rem;
-        box-shadow: 0 0 50px rgb(55, 56, 58);
-        opacity: .6;
-    
-    }
-    
 
 
 } /*end large */

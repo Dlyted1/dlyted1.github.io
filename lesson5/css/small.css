@@ -32,7 +32,14 @@ h3, h4 {
     font-family: "Roboto", sans-serif;   
 }
 
-
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    background-color: burlywood;
+    font-weight: 500;
+}
 
 header {
     background-color: #C9D6EA;
@@ -119,7 +126,7 @@ img {            /* use for very large image scale to correct size */
   .herodiv {
     margin: 10px auto;
     position: relative;
-    font-weight: 500;
+    
     
 }
   /*the child of .herodiv*/
@@ -140,10 +147,12 @@ img {            /* use for very large image scale to correct size */
 
 .label {
     grid-column: 1;
+    margin: 5px auto;
 }
 
 .value {
     grid-column: 2;
+    margin: 5px auto;
 }
 
 .grid { 
@@ -214,5 +223,9 @@ footer {
     clear: both;
   }
 
+  @media only screen and (min-width: 480px) {
+    header img {
+        width: 100%;
+    }
 
 
