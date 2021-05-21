@@ -7,9 +7,9 @@
    .herodiv {
     margin: 10px auto;
     position: relative;
-    font-weight: 500;
-    
-}
+    font-weight: 500; 
+   }
+   
  /*the child of .herodiv*/
  .weathersummary {
     position: absolute;
