@@ -150,6 +150,42 @@ img {            /* use for very large image scale to correct size */
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
 }
+.grid-col {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	text-align: center;
+}
+.grid-col:hover {
+	opacity: 0.75;
+	background-color: black;
+	color: white;
+}
+.grid {
+	border-right: 1px solid #333;
+}
+
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+}
+
+
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.col-head {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+}
 
 footer {
   background-color: #C9D6EA;
