@@ -122,9 +122,11 @@ img {            /* use for very large image scale to correct size */
     font-weight: 500;
     
 }
- /*the child of .herodiv*/
- .weathersummary {
-    position: absolute;
+  /*the child of .herodiv*/
+  .weathersummary {
+    
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-left: 5%;
     top: 40px;
     left: 50 px;
@@ -136,9 +138,18 @@ img {            /* use for very large image scale to correct size */
 
 }
 
+.label {
+    grid-column: 1;
+}
 
+.value {
+    grid-column: 2;
+}
 
-
+.grid { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+}
 
 footer {
   background-color: #C9D6EA;
@@ -156,6 +167,6 @@ footer {
     display: table;
     clear: both;
   }
-  
+
 
 
