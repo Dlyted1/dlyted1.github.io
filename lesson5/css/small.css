@@ -131,9 +131,9 @@ img {            /* use for very large image scale to correct size */
 }
   /*the child of .herodiv*/
   .weathersummary {
-    
     display:grid;
     grid-template-columns: repeat(2, 1fr);
+    position:absolute
     margin-left: 5%;
     top: 40px;
     left: 50 px;
@@ -224,10 +224,25 @@ img {            /* use for very large image scale to correct size */
 .map-responsive iframe{
     left:0;
     top:0;
-    height:50%;
-    width:40%;
+    margin-top: 15px;
+    height:70%;
+    width:100%;
     position:absolute;
     box-shadow: 0 0 50px rgb(55, 56, 58);
+
+}
+
+.contact {
+    position: relative;
+    text-align: center;
+
+   
+}
+
+
+
+
+.social {
 
 }
 
