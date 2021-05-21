@@ -187,6 +187,15 @@ img {            /* use for very large image scale to correct size */
 	color: white;
 }
 
+.sun1, .sun2, .sun3, .sun4, .sun5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100px;
+        padding: 0.25rem;
+    }
+
+
 footer {
   background-color: #C9D6EA;
   padding: 5px 0;
