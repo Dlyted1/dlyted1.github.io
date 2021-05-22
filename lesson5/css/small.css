@@ -136,24 +136,28 @@ img {            /* use for very large image scale to correct size */
     position:absolute
     margin-left: 5%;
     top: 40px;
-    left: 50 px;
+    left: 50px;
     background: radial-gradient(#eee, #4567aa);
     border: 3px solid #3c362a;
-    padding: 1.5rem;
+    padding: 1rem;
     box-shadow: 0 0 50px rgb(55, 56, 58);
     opacity: .6;
 
 }
 
+
 .label {
     grid-column: 1;
-    margin: 5px auto;
+    line-height: 50%;
+    
 }
 
 .value {
     grid-column: 2;
-    margin: 5px auto;
+    line-height: 50%;
+   
 }
+
 
 .grid { 
 	display: grid;
