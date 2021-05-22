@@ -135,7 +135,7 @@ img {            /* use for very large image scale to correct size */
     grid-template-columns: repeat(2, 1fr);
     position:absolute
     margin-left: 5%;
-    top: 40px;
+    top: 30px;
     left: 50px;
     background: radial-gradient(#eee, #4567aa);
     border: 3px solid #3c362a;
@@ -272,7 +272,7 @@ footer {
     clear: both;
   }
 
-  @media only screen and (min-width: 480px) {
+  @media only screen and (min-width: 620px) {
     header img {
         width: 100%;
     }
